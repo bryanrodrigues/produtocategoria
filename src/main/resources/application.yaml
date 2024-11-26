@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: produtocategoria
+  datasource:
+    url: jdbc:postgresql://localhost:5432/produtocategoriadb
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+server:
+  port: 8080
